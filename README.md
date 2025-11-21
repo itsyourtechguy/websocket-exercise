@@ -1,4 +1,4 @@
-<h1 align="center">WebSocket RPC Server & Client (Python)</h1>
+<h1 align="center">WebSocket RPC Server & Client</h1>
 
 <p align="center">
   <strong>A clean, scalable, RPC-style WebSocket implementation in Python.</strong><br>
@@ -31,13 +31,15 @@ Perfect for demonstrating:
 ## 📁 Folder Structure
 
 websocket-exercise/
-├── server.py # RPC WebSocket server
-├── client.py # Example RPC client
-├── protocol.py # Request parsing & response helpers
-├── functions.py # RPC function implementations
-├── README.md # Project documentation
+├── server.py          # RPC WebSocket server
+├── client.py          # Example RPC client
+├── protocol.py        # Request parsing & response helpers
+├── functions.py       # RPC function implementations
+├── README.md          # Project documentation
+├── requirements.txt   # Python dependencies
+├── .gitignore         # Files to ignore in git
 └── tests/
-└── test_functions.py
+    └── test_functions.py  # Unit tests for functions
 
 
 ---
@@ -57,7 +59,7 @@ pip install websockets pytest
 1. Clone the repository
 
 git clone https://github.com/itsyourtechguy/websocket-exercise.git
-cd websocket-rpc-python
+cd websocket-exercise
 
 2. Set up a virtual environment
 
